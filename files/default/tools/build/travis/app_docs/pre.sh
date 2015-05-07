@@ -3,8 +3,7 @@
 sudo apt-get install graphviz
 sudo pip install sphinx
 mkdir -p build/logs
-pear channel-discover pear.phpdoc.org
-pear install phpdoc/phpDocumentor
+composer global require phpdocumentor/phpdocumentor:2.*
 phpenv rehash
 set +H
 
